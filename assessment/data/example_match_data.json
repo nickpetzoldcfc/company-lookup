@@ -1,0 +1,278 @@
+[
+    {
+        "input": {
+            "name": "Williams Williams and Chapman",
+            "address": "250 Bevan plains\t\t",
+            "postcode": "",
+            "website": "foster-robinson.com"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Williams Williams and Chapman",
+                "address": "250 Bevan plains\t\t",
+                "postcode": "",
+                "website": "foster-robinson.com"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": " MANNING",
+            "address": "Flat 4\nAdam club",
+            "postcode": "",
+            "website": "smith.biz  "
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": " MANNING",
+                "address": "Flat 4\nAdam club",
+                "postcode": "",
+                "website": "smith.biz  "
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "TYLER LTD",
+            "address": "Flat 8\nNaomi path",
+            "postcode": "",
+            "website": "mahttps://son.net/teddy"
+        },
+        "expected_output": {
+            "name": "Tyler Ltd",
+            "address": {
+                "street": "Flat 8\nNaomi path",
+                "city": "West Brenda",
+                "postcode": "M7 9QL"
+            },
+            "domain": "mason.net",
+            "company_number": "3658877",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "low"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "3658877",
+                "name": "Tyler Ltd",
+                "address": {
+                    "street": "Flat 8\nNaomi path",
+                    "city": "West Brenda",
+                    "postcode": "M7 9QL"
+                },
+                "domain": "mason.net"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "TYLER LTD",
+                "address": "Flat 8\nNaomi path",
+                "postcode": "",
+                "website": "mahttps://son.net/teddy"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "Preston and Sons",
+            "address": "634 wood fields",
+            "postcode": "b3 6bg",
+            "website": "  HTTPS://WWW.WARREN-DAVIES.COM"
+        },
+        "expected_output": {
+            "name": "Preston and Sons",
+            "address": {
+                "street": "634 Wood fields",
+                "city": "Lake Malcolmmouth",
+                "postcode": "B3 6BG"
+            },
+            "domain": "warren-davies.com",
+            "company_number": "2829647",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "high"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "2829647",
+                "name": "Preston and Sons",
+                "address": {
+                    "street": "634 Wood fields",
+                    "city": "Lake Malcolmmouth",
+                    "postcode": "B3 6BG"
+                },
+                "domain": "warren-davies.com"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Preston and Sons",
+                "address": "634 wood fields",
+                "postcode": "b3 6bg",
+                "website": "  HTTPS://WWW.WARREN-DAVIES.COM"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "ARMSTRONG, STEELE AND HILTON",
+            "address": "Flat 30I\nArmstrong circles\t\t",
+            "postcode": "",
+            "website": ""
+        },
+        "expected_output": {
+            "name": "Armstrong, Steele and Hilton",
+            "address": {
+                "street": "Flat 30I\nArmstrong circles",
+                "city": "Port Arthurside",
+                "postcode": "PA39 0ZL"
+            },
+            "domain": "jenkins-nicholson.co.uk",
+            "company_number": "7795261",
+            "credit_score": 176,
+            "last_default_date": "1997-02-16",
+            "trade_lines": 9,
+            "match_confidence": "low"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "7795261",
+                "name": "Armstrong, Steele and Hilton",
+                "address": {
+                    "street": "Flat 30I\nArmstrong circles",
+                    "city": "Port Arthurside",
+                    "postcode": "PA39 0ZL"
+                },
+                "domain": "jenkins-nicholson.co.uk"
+            },
+            "credit_bureau": {
+                "company_number": "7795261",
+                "credit_score": 176,
+                "trade_lines": 9,
+                "last_default_date": "1997-02-16"
+            },
+            "customer_input": {
+                "name": "ARMSTRONG, STEELE AND HILTON",
+                "address": "Flat 30I\nArmstrong circles\t\t",
+                "postcode": "",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "davis",
+            "address": "36 Gillian rest\t",
+            "postcode": "\t\tS300zb",
+            "website": "www.byrne-hussain.com"
+        },
+        "expected_output": {
+            "name": "Davis PLC",
+            "address": {
+                "street": "36 Gillian rest",
+                "city": "Lake Nicolaview",
+                "postcode": "S30 0ZB"
+            },
+            "domain": "byrne-hussain.com",
+            "company_number": "887052",
+            "credit_score": 641,
+            "last_default_date": "2003-04-29",
+            "trade_lines": 10,
+            "match_confidence": "high"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "887052",
+                "name": "Davis PLC",
+                "address": {
+                    "street": "36 Gillian rest",
+                    "city": "Lake Nicolaview",
+                    "postcode": "S30 0ZB"
+                },
+                "domain": "byrne-hussain.com"
+            },
+            "credit_bureau": {
+                "company_number": "887052",
+                "credit_score": 641,
+                "trade_lines": 10,
+                "last_default_date": "April 29, 2003"
+            },
+            "customer_input": {
+                "name": "davis",
+                "address": "36 Gillian rest\t",
+                "postcode": "\t\tS300zb",
+                "website": "www.byrne-hussain.com"
+            }
+        }
+    }
+]

@@ -1,0 +1,1842 @@
+[
+    {
+        "input": {
+            "name": "byrne",
+            "address": "97 Hurst point\t\t",
+            "postcode": "",
+            "website": "muhttps://rray.com/teddy"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "byrne",
+                "address": "97 Hurst point\t\t",
+                "postcode": "",
+                "website": "muhttps://rray.com/teddy"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "Bentley Inc",
+            "address": "679 Leonard avenue\t",
+            "postcode": "",
+            "website": " dahttps://vidson-powell.co.uk/teddy"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Bentley Inc",
+                "address": "679 Leonard avenue\t",
+                "postcode": "",
+                "website": " dahttps://vidson-powell.co.uk/teddy"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "Gibson, Jones and Price",
+            "address": "Flat 72B\nCooper mountains",
+            "postcode": "WV5 6GU",
+            "website": "HTTPS://WWW.PARSONS-STEPHENSON.COM"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Gibson, Jones and Price",
+                "address": "Flat 72B\nCooper mountains",
+                "postcode": "WV5 6GU",
+                "website": "HTTPS://WWW.PARSONS-STEPHENSON.COM"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "ford dyer",
+            "address": "Studio 9\nWilliams ports",
+            "postcode": "n39 2sb",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "ford dyer",
+                "address": "Studio 9\nWilliams ports",
+                "postcode": "n39 2sb",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "price horton",
+            "address": "Flat 0\nLowe center\t\t",
+            "postcode": "",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "price horton",
+                "address": "Flat 0\nLowe center\t\t",
+                "postcode": "",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "    savage harris and evans",
+            "address": "487 robin islands",
+            "postcode": "iv1 7rg",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "    savage harris and evans",
+                "address": "487 robin islands",
+                "postcode": "iv1 7rg",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "  GALLAGHER  PLC",
+            "address": "Flat 40\nFrench trail\t",
+            "postcode": "",
+            "website": "dawson.com/index.html"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "  GALLAGHER  PLC",
+                "address": "Flat 40\nFrench trail\t",
+                "postcode": "",
+                "website": "dawson.com/index.html"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "  Coates,  Hill  and  Hutchinson",
+            "address": "Studio 82\nAndrew villages",
+            "postcode": "",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "  Coates,  Hill  and  Hutchinson",
+                "address": "Studio 82\nAndrew villages",
+                "postcode": "",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "  SMITH LEE AND JACKSON",
+            "address": "3 Michael trail",
+            "postcode": "\tIp299uj",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "  SMITH LEE AND JACKSON",
+                "address": "3 Michael trail",
+                "postcode": "\tIp299uj",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "Dunn, Bowen and Foster",
+            "address": "Flat 75\nSarah camp",
+            "postcode": "",
+            "website": "elhttps://liott-obrien.co.uk/teddy"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Dunn, Bowen and Foster",
+                "address": "Flat 75\nSarah camp",
+                "postcode": "",
+                "website": "elhttps://liott-obrien.co.uk/teddy"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "Watts Ltd",
+            "address": "772 Jones ranch\t\t",
+            "postcode": "",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Watts Ltd",
+                "address": "772 Jones ranch\t\t",
+                "postcode": "",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "duffy",
+            "address": "20 marshall center",
+            "postcode": "m9w 0rf",
+            "website": "bahttps://ker.com/teddy"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "duffy",
+                "address": "20 marshall center",
+                "postcode": "m9w 0rf",
+                "website": "bahttps://ker.com/teddy"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "  lees  jordan ",
+            "address": "Flat 5\nBaker garden",
+            "postcode": "",
+            "website": "johttps://nes-thomas.com/teddy"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "  lees  jordan ",
+                "address": "Flat 5\nBaker garden",
+                "postcode": "",
+                "website": "johttps://nes-thomas.com/teddy"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "sharp ",
+            "address": "flat 65 arthur skyway",
+            "postcode": "le18 6ah",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "sharp ",
+                "address": "flat 65 arthur skyway",
+                "postcode": "le18 6ah",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "Jones-Fitzgerald",
+            "address": "Studio 8\nPickering green",
+            "postcode": "",
+            "website": "https://www.day-read.net"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Jones-Fitzgerald",
+                "address": "Studio 8\nPickering green",
+                "postcode": "",
+                "website": "https://www.day-read.net"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "Simmons  LLC ",
+            "address": "Studio 04\nLowe street\t\t",
+            "postcode": "\t\tbr41 7jz",
+            "website": "rohttps://se.biz/teddy"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Simmons  LLC ",
+                "address": "Studio 04\nLowe street\t\t",
+                "postcode": "\t\tbr41 7jz",
+                "website": "rohttps://se.biz/teddy"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "Day Group",
+            "address": "Studio 67\nGeorgina plaza\t\t",
+            "postcode": "",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Day Group",
+                "address": "Studio 67\nGeorgina plaza\t\t",
+                "postcode": "",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "BELL-CHAPMAN",
+            "address": "053 Allan shore",
+            "postcode": "",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "BELL-CHAPMAN",
+                "address": "053 Allan shore",
+                "postcode": "",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "    WEBSTER THORPE",
+            "address": "Flat 11\nStanley skyway",
+            "postcode": "  Dl9y5ws",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "    WEBSTER THORPE",
+                "address": "Flat 11\nStanley skyway",
+                "postcode": "  Dl9y5ws",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "cooke",
+            "address": "32 Reece mountains\t",
+            "postcode": "\tM6c0bt",
+            "website": "https://www.ward.info"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "cooke",
+                "address": "32 Reece mountains\t",
+                "postcode": "\tM6c0bt",
+                "website": "https://www.ward.info"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "O'Connor  PLC ",
+            "address": "002 Raymond shoal\t",
+            "postcode": "",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "O'Connor  PLC ",
+                "address": "002 Raymond shoal\t",
+                "postcode": "",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "   burgess frost ",
+            "address": "1 Ross prairie\t\t",
+            "postcode": "",
+            "website": "brhttps://own.com/teddy"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "   burgess frost ",
+                "address": "1 Ross prairie\t\t",
+                "postcode": "",
+                "website": "brhttps://own.com/teddy"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "Saunders-Goddard",
+            "address": "Flat 54Q\nHarvey park\t\t",
+            "postcode": "sa9 8yq",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Saunders-Goddard",
+                "address": "Flat 54Q\nHarvey park\t\t",
+                "postcode": "sa9 8yq",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "kaur",
+            "address": "84 Williams light",
+            "postcode": "G26 3GN",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "kaur",
+                "address": "84 Williams light",
+                "postcode": "G26 3GN",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": " simpson,  hunt  and  smith",
+            "address": "studio 19 naomi rest",
+            "postcode": "m5 8wu",
+            "website": "www.hughes.org"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": " simpson,  hunt  and  smith",
+                "address": "studio 19 naomi rest",
+                "postcode": "m5 8wu",
+                "website": "www.hughes.org"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "Thompson-Murray",
+            "address": "  Flat  30x\nRichardson  mountain",
+            "postcode": "b9a 6nb",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Thompson-Murray",
+                "address": "  Flat  30x\nRichardson  mountain",
+                "postcode": "b9a 6nb",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "Harding,  McCarthy  and  Wilson ",
+            "address": "94 Clark locks\t",
+            "postcode": "",
+            "website": "hihttps://cks-rose.net/teddy"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Harding,  McCarthy  and  Wilson ",
+                "address": "94 Clark locks\t",
+                "postcode": "",
+                "website": "hihttps://cks-rose.net/teddy"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": " HAMILTON",
+            "address": "  2  Ronald  path\t",
+            "postcode": "",
+            "website": "bihttps://rd.com/teddy"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": " HAMILTON",
+                "address": "  2  Ronald  path\t",
+                "postcode": "",
+                "website": "bihttps://rd.com/teddy"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "smith allen",
+            "address": "30 Cook station\t",
+            "postcode": "",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "smith allen",
+                "address": "30 Cook station\t",
+                "postcode": "",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "gregory and sons",
+            "address": "Studio 88F\nJamie tunnel\t",
+            "postcode": "\tE030nf",
+            "website": "www.hodgson.com"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "gregory and sons",
+                "address": "Studio 88F\nJamie tunnel\t",
+                "postcode": "\tE030nf",
+                "website": "www.hodgson.com"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "  ALI  WILKINSON   ",
+            "address": "studio 61 phillips brooks",
+            "postcode": "  m2b  8ns",
+            "website": "https://www.turner.net"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "  ALI  WILKINSON   ",
+                "address": "studio 61 phillips brooks",
+                "postcode": "  m2b  8ns",
+                "website": "https://www.turner.net"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "pritchard john",
+            "address": "Studio 4\nKhan manor",
+            "postcode": "",
+            "website": "www.phillips-white.com"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "pritchard john",
+                "address": "Studio 4\nKhan manor",
+                "postcode": "",
+                "website": "www.phillips-white.com"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "  young",
+            "address": "948 Cross mall\t",
+            "postcode": "",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "  young",
+                "address": "948 Cross mall\t",
+                "postcode": "",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "WHEELER GROUP",
+            "address": "0 Samantha via\t",
+            "postcode": "",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "WHEELER GROUP",
+                "address": "0 Samantha via\t",
+                "postcode": "",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "    chamberlain,  price  and  matthews   ",
+            "address": "24 Cameron throughway\t\t",
+            "postcode": "\t\tls0 8yj",
+            "website": "ahhttps://med-ellis.org/teddy"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "    chamberlain,  price  and  matthews   ",
+                "address": "24 Cameron throughway\t\t",
+                "postcode": "\t\tls0 8yj",
+                "website": "ahhttps://med-ellis.org/teddy"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "    dodd thomas and hunt ",
+            "address": "1 Francis river\t",
+            "postcode": "",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "    dodd thomas and hunt ",
+                "address": "1 Francis river\t",
+                "postcode": "",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "Rhodes Group",
+            "address": "Flat 79\nLewis terrace\t",
+            "postcode": "\tHp1n7yl",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Rhodes Group",
+                "address": "Flat 79\nLewis terrace\t",
+                "postcode": "\tHp1n7yl",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "MARTIN, PICKERING AND ROBINSON ",
+            "address": "  85  Edwards  harbors ",
+            "postcode": "  \t\tze0n  9aa",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "MARTIN, PICKERING AND ROBINSON ",
+                "address": "  85  Edwards  harbors ",
+                "postcode": "  \t\tze0n  9aa",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "Williams Williams and Chapman",
+            "address": "250 Bevan plains\t\t",
+            "postcode": "",
+            "website": "foster-robinson.com"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Williams Williams and Chapman",
+                "address": "250 Bevan plains\t\t",
+                "postcode": "",
+                "website": "foster-robinson.com"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": " MANNING",
+            "address": "Flat 4\nAdam club",
+            "postcode": "",
+            "website": "smith.biz  "
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": " MANNING",
+                "address": "Flat 4\nAdam club",
+                "postcode": "",
+                "website": "smith.biz  "
+            }
+        }
+    }
+]
