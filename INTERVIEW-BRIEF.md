@@ -52,3 +52,7 @@ We'll primarily be looking at:
 - Your ability to explain and review your own work
 
 We're not expecting a "perfect" solution — the focus is on approach, judgement, and communication, not raw output.
+
+Likewise, we are not testing the functionality defined in the initial assessment, rather your ability to serve said functionality as part of a production application.
+
+Please commit and push all changes at the end of the interview.

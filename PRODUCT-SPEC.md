@@ -8,28 +8,40 @@ We now want to make this capability available to other internal services via a s
 
 The API should:
 
-- Accept JSON input in the same shape as the original assessment
-- Return JSON output that strictly follows the original output contract
+- Accept JSON input in the same shape as below
+- Return JSON output that strictly follows the data contract defined below
 - Use appropriate HTTP status codes (e.g. success vs invalid input)
 - Behave deterministically and predictably
 
-The API is intended for internal use, but should be designed as if it could later be productionised.
+The API is intended for internal use in production systems so should be designed accordingly.
 
-## Expectations and constraints
+### Data Contracts
 
-- Focus on clear API design, structure, and readability.
-- Reasonable request/response validation and error handling are expected.
-- Testing (unit or integration) and static analysis are encouraged where time allows.
-- No infrastructure, deployment, or cloud configuration is required.
-- AI-assisted tooling is explicitly allowed and encouraged — we're interested in how you use it to accelerate delivery while retaining control and clarity.
+#### Input schema (example)
 
-## What we're evaluating
+```json
+{
+    "name": " robinson ",  // Required
+    "address": "928 jodie land",  // Optional
+    "postcode": " l7a 5eu ",  // Required
+    "website": "http://www.hughes.com"  // Optional
+}
+```
 
-We'll primarily be looking at:
+#### Output schema (example)
 
-- How you refine and clarify a loosely defined requirement
-- How you structure and expose backend functionality via an API
-- The clarity, maintainability, and intent of your code
-- Your ability to explain and review your own work
-
-We're not expecting a finished or "perfect" solution — the focus is on approach, judgement, and communication, not raw output.
+```json
+{
+    "address": {
+        "city": "Port Colin", // String | NULL
+        "postcode": "L7A 5EU", // String | NULL
+        "street": "928 Jodie land" // String | NULL
+    },
+    "company_number": "4958777", // String | NULL
+    "credit_score": 887, // Int | NULL
+    "domain": "hughes.com", // String | NULL
+    "last_default_date": "2020-03-05", // String of ISO Format [YYYY-MM-DD] | NULL
+    "match_confidence": "high", // ENUM [no_match | low | medium | high]
+    "name": "Robinson PLC", // String "trade_lines": 10 // Int | NULL
+}
+```
