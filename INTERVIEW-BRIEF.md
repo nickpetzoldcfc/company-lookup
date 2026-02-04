@@ -1,58 +1,61 @@
 # Technical Interview Brief: Company Lookup API
 
-This interview builds directly on the **Company Lookup** coding assessment you completed in Codility.
+This interview is designed to simulate a realistic delivery scenario: taking an existing piece of business functionality and **productionising it as a backend service**.
 
-The aim is to simulate a realistic delivery lifecycle: starting from an existing product-style requirement, refining it collaboratively, and then implementing a clean, production-minded HTTP API using modern development practices (including AI-assisted tooling).
+The aim is not to test algorithmic problem-solving, but to understand how you:
 
-We are not looking for trick solutions or completeness — we're interested in how you think, refine requirements, structure code, and make sensible engineering decisions under time constraints.
+- refine a loosely defined requirement,
+- make sensible engineering decisions,
+- and deliver a clean, production-minded REST API using modern development practices (including AI-assisted tooling).
 
-## Interview structure (60 minutes total)
+We are not looking for trick solutions or completeness. We’re interested in how you **clarify requirements, structure work, and execute** under realistic constraints.
 
-### 5 minutes – Introductions
+---
 
-Quick introductions and confirmation of how the session will run.
+## How the interview will run
 
-### 10–15 minutes – Refinement
+You should expect to:
 
-We'll discuss the product brief below. You're encouraged to:
+- spend time early on **understanding and refining the problem**, including how the API should behave,
+- ask clarifying questions and call out ambiguities,
+- make reasonable assumptions and document them,
+- write a short refinement or implementation ticket locally (e.g. in Markdown),
+- and then focus on **executing and delivering a working API**.
 
-- Ask clarifying questions
-- Call out ambiguities
-- Make reasonable assumptions, and
-- Write a short refinement or implementation ticket in Markdown
+There is no fixed split between “planning” and “coding”. You should manage your time in whatever way best supports delivering a clear, well-designed solution.
 
-### ~30 minutes – Implementation
+You’re welcome to ask questions at any point. Equally, if you prefer to work quietly and focus during the build, that’s completely fine.
 
-- You'll take your existing Company Lookup logic and expose it behind an HTTP API.
+---
+
+## Implementation expectations
+
+- You’ll be given existing Company Lookup functionality defined in `./src/` and asked to expose it behind an HTTP API.
 - Any Python framework is fine (FastAPI, Flask, Django, etc.).
-- You may use AI-assisted development tools freely.
-- Infrastructure code (Terraform, pipelines, cloud setup) is not expected.
+- AI-assisted development tools are encouraged and may be used freely.
+- Infrastructure code (Terraform, pipelines, cloud setup) is **not** expected.
 
-### 10–15 minutes – Demo & discussion
+This exercise should be treated as the creation of a **new backend service**, rather than a small change to an existing one.
 
-You'll walk us through what you built, explain key decisions and trade-offs, and ask any questions you have.
+As such, we’re interested in the **foundational decisions** you make when starting a service from scratch, for example:
 
-You're welcome to ask questions at any point. Equally, if you prefer to work quietly and focus during the build, that's completely fine.
+- project and package structure,
+- dependency and package management approach,
+- basic static analysis or linting considerations,
+- and sensible defaults for a new codebase.
+
+We don’t expect these to be fully implemented or production-hardened within the time available, but we do expect you to apply judgement and be able to explain the choices you make.
+
+---
 
 ## Expectations and constraints
 
-- Focus on clear API design, structure, and readability.
+- Prioritise **clear API behaviour**, structure, and readability.
 - Reasonable request/response validation and error handling are expected.
+- Considerations such as logging, observability, and security are encouraged and should be applied with judgement.
 - Testing (unit or integration) and static analysis are encouraged where time allows.
 - No infrastructure, deployment, or cloud configuration is required.
-- AI-assisted tooling is explicitly allowed and encouraged — we're interested in how you use it to accelerate delivery while retaining control and clarity.
 
-## What we're evaluating
-
-We'll primarily be looking at:
-
-- How you refine and clarify a loosely defined requirement
-- How you structure and expose backend functionality via an API
-- The clarity, maintainability, and intent of your code
-- Your ability to explain and review your own work
-
-We're not expecting a "perfect" solution — the focus is on approach, judgement, and communication, not raw output.
-
-Likewise, we are not testing the functionality defined in the initial assessment, rather your ability to serve said functionality as part of a production application.
+The goal is **not** to configure every possible tool or system, but to demonstrate how you would **set a new service up for success**.
 
 Please commit and push all changes at the end of the interview.

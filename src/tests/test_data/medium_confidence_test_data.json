@@ -1,0 +1,324 @@
+[
+    {
+        "input": {
+            "name": "Potts Inc",
+            "address": "Studio 09K\nKate motorway\t",
+            "postcode": "",
+            "website": "www.kelly-osullivan.com"
+        },
+        "expected_output": {
+            "name": "Potts Inc",
+            "address": {
+                "street": "Studio 09K\nKate motorway",
+                "city": "Dianaton",
+                "postcode": "M3 5WX"
+            },
+            "domain": "kelly-osullivan.com",
+            "company_number": "7737268",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "medium"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "7737268",
+                "name": "Potts Inc",
+                "address": {
+                    "street": "Studio 09K\nKate motorway",
+                    "city": "Dianaton",
+                    "postcode": "M3 5WX"
+                },
+                "domain": "kelly-osullivan.com"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Potts Inc",
+                "address": "Studio 09K\nKate motorway\t",
+                "postcode": "",
+                "website": "www.kelly-osullivan.com"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "fox",
+            "address": "1 Stacey forks",
+            "postcode": "",
+            "website": " www.mills.net"
+        },
+        "expected_output": {
+            "name": "Fox Group",
+            "address": {
+                "street": "1 Stacey forks",
+                "city": "North Emilyfort",
+                "postcode": "SO02 4ZT"
+            },
+            "domain": "mills.net",
+            "company_number": "8357789",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "medium"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "8357789",
+                "name": "Fox Group",
+                "address": {
+                    "street": "1 Stacey forks",
+                    "city": "North Emilyfort",
+                    "postcode": "SO02 4ZT"
+                },
+                "domain": "mills.net"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "fox",
+                "address": "1 Stacey forks",
+                "postcode": "",
+                "website": " www.mills.net"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "   craig, king and taylor  ",
+            "address": "4 ian station",
+            "postcode": "bh7 7uy",
+            "website": "ochttps://onnor-hartley.co.uk/teddy"
+        },
+        "expected_output": {
+            "name": "Craig, King and Taylor",
+            "address": {
+                "street": "4 Ian station",
+                "city": "Deanfurt",
+                "postcode": "BH7 7UY"
+            },
+            "domain": "oconnor-hartley.co.uk",
+            "company_number": "1558083",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "medium"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "1558083",
+                "name": "Craig, King and Taylor",
+                "address": {
+                    "street": "4 Ian station",
+                    "city": "Deanfurt",
+                    "postcode": "BH7 7UY"
+                },
+                "domain": "oconnor-hartley.co.uk"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "   craig, king and taylor  ",
+                "address": "4 ian station",
+                "postcode": "bh7 7uy",
+                "website": "ochttps://onnor-hartley.co.uk/teddy"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "  O'Brien  Group ",
+            "address": "429 Charles parkway",
+            "postcode": "\tB56bf",
+            "website": ""
+        },
+        "expected_output": {
+            "name": "O'Brien Group",
+            "address": {
+                "street": "429 Charles parkway",
+                "city": "Lake Susan",
+                "postcode": "B5 6BF"
+            },
+            "domain": "poole.org",
+            "company_number": "1798993",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "medium"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "1798993",
+                "name": "O'Brien Group",
+                "address": {
+                    "street": "429 Charles parkway",
+                    "city": "Lake Susan",
+                    "postcode": "B5 6BF"
+                },
+                "domain": "poole.org"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "  O'Brien  Group ",
+                "address": "429 Charles parkway",
+                "postcode": "\tB56bf",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "MAY GROUP",
+            "address": "Studio 7\nLindsey port",
+            "postcode": "\tpa9 9qn",
+            "website": ""
+        },
+        "expected_output": {
+            "name": "May Group",
+            "address": {
+                "street": "Studio 7\nLindsey port",
+                "city": "Sheppardborough",
+                "postcode": "PA9 9QN"
+            },
+            "domain": "lewis.com",
+            "company_number": "4395543",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "medium"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "4395543",
+                "name": "May Group",
+                "address": {
+                    "street": "Studio 7\nLindsey port",
+                    "city": "Sheppardborough",
+                    "postcode": "PA9 9QN"
+                },
+                "domain": "lewis.com"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "MAY GROUP",
+                "address": "Studio 7\nLindsey port",
+                "postcode": "\tpa9 9qn",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "atkinson",
+            "address": "971 Short branch\t\t",
+            "postcode": "",
+            "website": "www.perry.co.uk"
+        },
+        "expected_output": {
+            "name": "Atkinson LLC",
+            "address": {
+                "street": "971 Short branch",
+                "city": "Smithfurt",
+                "postcode": "N5 4JR"
+            },
+            "domain": "perry.co.uk",
+            "company_number": "2159700",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "medium"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "2159700",
+                "name": "Atkinson LLC",
+                "address": {
+                    "street": "971 Short branch",
+                    "city": "Smithfurt",
+                    "postcode": "N5 4JR"
+                },
+                "domain": "perry.co.uk"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "atkinson",
+                "address": "971 Short branch\t\t",
+                "postcode": "",
+                "website": "www.perry.co.uk"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "  Begum-Bell",
+            "address": "063 Amelia fields",
+            "postcode": "\tPa6w8zz",
+            "website": "hohttps://wells-walker.com/teddy"
+        },
+        "expected_output": {
+            "name": "Begum-Bell",
+            "address": {
+                "street": "063 Amelia fields",
+                "city": "Port Samuelfurt",
+                "postcode": "PA6W 8ZZ"
+            },
+            "domain": "howells-walker.com",
+            "company_number": "548672",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "medium"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "548672",
+                "name": "Begum-Bell",
+                "address": {
+                    "street": "063 Amelia fields",
+                    "city": "Port Samuelfurt",
+                    "postcode": "PA6W 8ZZ"
+                },
+                "domain": "howells-walker.com"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "  Begum-Bell",
+                "address": "063 Amelia fields",
+                "postcode": "\tPa6w8zz",
+                "website": "hohttps://wells-walker.com/teddy"
+            }
+        }
+    }
+]

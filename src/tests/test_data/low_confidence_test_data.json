@@ -1,0 +1,324 @@
+[
+    {
+        "input": {
+            "name": "byrne",
+            "address": "97 Hurst point\t\t",
+            "postcode": "",
+            "website": "muhttps://rray.com/teddy"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "byrne",
+                "address": "97 Hurst point\t\t",
+                "postcode": "",
+                "website": "muhttps://rray.com/teddy"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "Bentley Inc",
+            "address": "679 Leonard avenue\t",
+            "postcode": "",
+            "website": " dahttps://vidson-powell.co.uk/teddy"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Bentley Inc",
+                "address": "679 Leonard avenue\t",
+                "postcode": "",
+                "website": " dahttps://vidson-powell.co.uk/teddy"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "Gibson, Jones and Price",
+            "address": "Flat 72B\nCooper mountains",
+            "postcode": "WV5 6GU",
+            "website": "HTTPS://WWW.PARSONS-STEPHENSON.COM"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "Gibson, Jones and Price",
+                "address": "Flat 72B\nCooper mountains",
+                "postcode": "WV5 6GU",
+                "website": "HTTPS://WWW.PARSONS-STEPHENSON.COM"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "ford dyer",
+            "address": "Studio 9\nWilliams ports",
+            "postcode": "n39 2sb",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "ford dyer",
+                "address": "Studio 9\nWilliams ports",
+                "postcode": "n39 2sb",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "price horton",
+            "address": "Flat 0\nLowe center\t\t",
+            "postcode": "",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "price horton",
+                "address": "Flat 0\nLowe center\t\t",
+                "postcode": "",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "    savage harris and evans",
+            "address": "487 robin islands",
+            "postcode": "iv1 7rg",
+            "website": ""
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "    savage harris and evans",
+                "address": "487 robin islands",
+                "postcode": "iv1 7rg",
+                "website": ""
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "  GALLAGHER  PLC",
+            "address": "Flat 40\nFrench trail\t",
+            "postcode": "",
+            "website": "dawson.com/index.html"
+        },
+        "expected_output": {
+            "name": null,
+            "address": {
+                "city": null,
+                "postcode": null,
+                "street": null
+            },
+            "domain": null,
+            "company_number": null,
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "no_match"
+        },
+        "original_data": {
+            "companies_house": {
+                "address": {
+                    "city": null,
+                    "postcode": null,
+                    "street": null
+                },
+                "company_number": null,
+                "domain": null,
+                "name": null
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "  GALLAGHER  PLC",
+                "address": "Flat 40\nFrench trail\t",
+                "postcode": "",
+                "website": "dawson.com/index.html"
+            }
+        }
+    }
+]

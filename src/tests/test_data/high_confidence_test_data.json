@@ -1,0 +1,324 @@
+[
+    {
+        "input": {
+            "name": "  DAVEY  KING      ",
+            "address": "Flat 60\nJoe street",
+            "postcode": "ne47 4sn",
+            "website": "davies.com/index.html"
+        },
+        "expected_output": {
+            "name": "Davey-King",
+            "address": {
+                "street": "Flat 60\nJoe street",
+                "city": "West Irenemouth",
+                "postcode": "NE47 4SN"
+            },
+            "domain": "davies.com",
+            "company_number": "2912752",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "high"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "2912752",
+                "name": "Davey-King",
+                "address": {
+                    "street": "Flat 60\nJoe street",
+                    "city": "West Irenemouth",
+                    "postcode": "NE47 4SN"
+                },
+                "domain": "davies.com"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "  DAVEY  KING      ",
+                "address": "Flat 60\nJoe street",
+                "postcode": "ne47 4sn",
+                "website": "davies.com/index.html"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "  chamberlain  ",
+            "address": " Flat  3\nJacob  village  ",
+            "postcode": "  Sa996he  ",
+            "website": "HTTPS://WWW.DOBSON-ARNOLD.BIZ"
+        },
+        "expected_output": {
+            "name": "Chamberlain Inc",
+            "address": {
+                "street": "Flat 3\nJacob village",
+                "city": "Pamelaton",
+                "postcode": "SA99 6HE"
+            },
+            "domain": "dobson-arnold.biz",
+            "company_number": "2070208",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "high"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "2070208",
+                "name": "Chamberlain Inc",
+                "address": {
+                    "street": "Flat 3\nJacob village",
+                    "city": "Pamelaton",
+                    "postcode": "SA99 6HE"
+                },
+                "domain": "dobson-arnold.biz"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "  chamberlain  ",
+                "address": " Flat  3\nJacob  village  ",
+                "postcode": "  Sa996he  ",
+                "website": "HTTPS://WWW.DOBSON-ARNOLD.BIZ"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "FREEMAN",
+            "address": "  989  Hayes  mission\t\t ",
+            "postcode": " \t\tb8t  6jr ",
+            "website": " WWW.RICHARDS.COM"
+        },
+        "expected_output": {
+            "name": "Freeman PLC",
+            "address": {
+                "street": "989 Hayes mission",
+                "city": "Port Reece",
+                "postcode": "B8T 6JR"
+            },
+            "domain": "richards.com",
+            "company_number": "4568157",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "high"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "4568157",
+                "name": "Freeman PLC",
+                "address": {
+                    "street": "989 Hayes mission",
+                    "city": "Port Reece",
+                    "postcode": "B8T 6JR"
+                },
+                "domain": "richards.com"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "FREEMAN",
+                "address": "  989  Hayes  mission\t\t ",
+                "postcode": " \t\tb8t  6jr ",
+                "website": " WWW.RICHARDS.COM"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "      PARKINSON      ",
+            "address": "1 Norman branch",
+            "postcode": "\tb1 8as",
+            "website": " www.benson.com"
+        },
+        "expected_output": {
+            "name": "Parkinson Ltd",
+            "address": {
+                "street": "1 Norman branch",
+                "city": "Robinsonland",
+                "postcode": "B1 8AS"
+            },
+            "domain": "benson.com",
+            "company_number": "6383381",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "high"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "6383381",
+                "name": "Parkinson Ltd",
+                "address": {
+                    "street": "1 Norman branch",
+                    "city": "Robinsonland",
+                    "postcode": "B1 8AS"
+                },
+                "domain": "benson.com"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "      PARKINSON      ",
+                "address": "1 Norman branch",
+                "postcode": "\tb1 8as",
+                "website": " www.benson.com"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "kirk",
+            "address": "  315  Hugh  run\t ",
+            "postcode": "\tGy432pd",
+            "website": "www.robertson.info"
+        },
+        "expected_output": {
+            "name": "Kirk Inc",
+            "address": {
+                "street": "315 Hugh run",
+                "city": "West Geraldborough",
+                "postcode": "GY43 2PD"
+            },
+            "domain": "robertson.info",
+            "company_number": "3926581",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "high"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "3926581",
+                "name": "Kirk Inc",
+                "address": {
+                    "street": "315 Hugh run",
+                    "city": "West Geraldborough",
+                    "postcode": "GY43 2PD"
+                },
+                "domain": "robertson.info"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "kirk",
+                "address": "  315  Hugh  run\t ",
+                "postcode": "\tGy432pd",
+                "website": "www.robertson.info"
+            }
+        }
+    },
+    {
+        "input": {
+            "name": "FRANCIS ",
+            "address": " 2  Patel  port",
+            "postcode": "L2 1DA",
+            "website": "  mason.biz/index.html "
+        },
+        "expected_output": {
+            "name": "Francis Inc",
+            "address": {
+                "street": "2 Patel port",
+                "city": "New Georgiafort",
+                "postcode": "L2 1DA"
+            },
+            "domain": "mason.biz",
+            "company_number": "6660583",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "high"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "6660583",
+                "name": "Francis Inc",
+                "address": {
+                    "street": "2 Patel port",
+                    "city": "New Georgiafort",
+                    "postcode": "L2 1DA"
+                },
+                "domain": "mason.biz"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": "FRANCIS ",
+                "address": " 2  Patel  port",
+                "postcode": "L2 1DA",
+                "website": "  mason.biz/index.html "
+            }
+        }
+    },
+    {
+        "input": {
+            "name": " dodd",
+            "address": " Studio  5\nWhite  islands\t\t",
+            "postcode": " \tE9j2yl",
+            "website": "http://www.lyons-matthews.com"
+        },
+        "expected_output": {
+            "name": "Dodd LLC",
+            "address": {
+                "street": "Studio 5\nWhite islands",
+                "city": "Lake Danielbury",
+                "postcode": "E9J 2YL"
+            },
+            "domain": "lyons-matthews.com",
+            "company_number": "2743832",
+            "credit_score": null,
+            "last_default_date": null,
+            "trade_lines": null,
+            "match_confidence": "high"
+        },
+        "original_data": {
+            "companies_house": {
+                "company_number": "2743832",
+                "name": "Dodd LLC",
+                "address": {
+                    "street": "Studio 5\nWhite islands",
+                    "city": "Lake Danielbury",
+                    "postcode": "E9J 2YL"
+                },
+                "domain": "lyons-matthews.com"
+            },
+            "credit_bureau": {
+                "company_number": null,
+                "credit_score": null,
+                "trade_lines": null,
+                "last_default_date": null
+            },
+            "customer_input": {
+                "name": " dodd",
+                "address": " Studio  5\nWhite  islands\t\t",
+                "postcode": " \tE9j2yl",
+                "website": "http://www.lyons-matthews.com"
+            }
+        }
+    }
+]

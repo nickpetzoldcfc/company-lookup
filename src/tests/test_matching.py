@@ -2,7 +2,8 @@ import json
 import pathlib
 
 import pytest
-from company_lookup import CompanyLookup
+
+from src.company_lookup import CompanyLookup
 
 HIGH_CONFIDENCE_DATA_FILE = (
     pathlib.Path(__file__).parent / "test_data" / "high_confidence_test_data.json"
@@ -17,7 +18,7 @@ NO_MATCH_DATA_FILE = (
     pathlib.Path(__file__).parent / "test_data" / "no_match_test_data.json"
 )
 
-DATA_DIR = pathlib.Path(__file__).parent / "data"
+DATA_DIR = pathlib.Path(__file__).parent.parent / "data"
 
 
 @pytest.fixture(scope="session")
