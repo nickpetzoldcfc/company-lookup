@@ -13,7 +13,7 @@ The API should:
 - Use appropriate HTTP status codes (e.g. success vs invalid input)
 - Behave deterministically and predictably
 
-The API is intended for internal use in production systems so should be designed accordingly.
+As this API is intended for use in production systems, the candidate is expected to own the technical implementation end‑to‑end, ensuring the service meets appropriate standards for reliability, security, performance, and long‑term maintainability.
 
 ### Data Contracts
 
