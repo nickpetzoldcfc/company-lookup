@@ -6,28 +6,18 @@ We now want to make this capability available to other internal services via a s
 
 From a development perspective, this should be treated as a **new service**. While the core lookup logic already exists via `CompanyLookup.find`, the surrounding application (API layer, structure, configuration, and tooling) is being created from scratch.
 
+*N.B. This product spec is 100% geared towards providing requirements for a business outcome i.e. looking up a Company in a central register, and deliberately leaves technical implementation details e.g. authentication, up to the developer to decide what is and isn't necessary given the time constraints.*
+
 ---
 
 ## Desired behaviour
 
-The API should:
+The HTTP Endpoint should:
 
 - accept JSON input in the same shape as defined below,
 - return JSON output that **strictly follows the data contract**,
 - use appropriate HTTP status codes (e.g. success vs invalid input),
 - behave deterministically and predictably.
-
-This product spec is 100% geared towards providing a business outcome i.e. looking up a Company in a central register, and deliberately leaves technical implementation details e.g. authentication, up to the developer.
-
----
-
-## Security and access considerations
-
-The service should be designed with security in mind.
-
-- Infrastructure-level concerns (e.g. IAM, OAuth flows, cloud identity providers) are **out of scope**.
-- Application-level mechanisms, such as **simple API key authentication**, request validation, and safe error handling, are **in scope** and may be implemented where appropriate.
-- Candidates should feel comfortable calling out risks, assumptions, and next steps, even if not fully implemented.
 
 ---
 
