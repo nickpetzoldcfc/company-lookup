@@ -28,10 +28,10 @@ We're **not** expecting you to produce a perfect solution, but demonstrating awa
 
 #### Example - Observability:
 
-**EXPECTED**
+**Expected**
 > Limited logging of request inputs and outputs
 
-**NOT EXPECTED**
+**Not Expected**
 > Comprehensive logging, tracing and auditing of the API
 
 ## Expectations
