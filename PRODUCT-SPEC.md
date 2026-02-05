@@ -17,7 +17,7 @@ The API should:
 - use appropriate HTTP status codes (e.g. success vs invalid input),
 - behave deterministically and predictably.
 
-The API is intended for use by production systems. Candidates are expected to demonstrate **sound engineering judgement** when implementing it, including awareness of reliability, security, performance, and long-term maintainability — applied proportionately to the scope of the exercise.
+This product spec is 100% geared towards providing a business outcome i.e. looking up a Company in a central register, and deliberately leaves technical implementation details e.g. authentication, up to the developer.
 
 ---
 
