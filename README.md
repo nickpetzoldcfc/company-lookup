@@ -22,7 +22,7 @@ Manage your time as you see fit. Questions welcome throughout.
 - AI-assisted tools encouraged
 - **No infrastructure/deployment code required**
 
-We're interested in foundational choices: project structure, dependency management, linting, sensible defaults.
+We're interested in foundational choices: project structure, self-documentation, dependency management, linting, sensible defaults etc.
 
 ## Expectations
 
