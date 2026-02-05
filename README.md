@@ -24,6 +24,16 @@ Manage your time as you see fit. Questions welcome throughout.
 
 We're interested in foundational choices: project structure, self-documentation, dependency management, linting, sensible defaults etc.
 
+We're **not** expecting you to produce a perfect solution, but demonstrating awareness of a specific consideration is expected:
+
+#### Example - Observability:
+
+**EXPECTED**
+> Limited logging of request inputs and outputs
+
+**NOT EXPECTED**
+> Comprehensive logging, tracing and auditing of the API
+
 ## Expectations
 
 - Clear API behaviour, structure, and readability
