@@ -33,7 +33,9 @@ We're interested in foundational choices: project structure, dependency manageme
 
 **Goal**: Demonstrate how you'd set a new service up for success.
 
-Commit and push all changes at the end. Please then open a PR back into our repo.
+## Timescales
+
+We want to leave enough time to hear more about your experience and for you to ask questions, so we will have a hard stop at 45 mins.
 
 ## Next Steps
 
