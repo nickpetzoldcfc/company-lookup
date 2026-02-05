@@ -1,61 +1,72 @@
 # Technical Interview Brief: Company Lookup API
 
-This interview is designed to simulate a realistic delivery scenario: taking an existing piece of business functionality and **productionising it as a backend service**.
+Take the existing Company Lookup functionality in `./src/` and expose it as a production-ready REST API.
 
-The aim is not to test algorithmic problem-solving, but to understand how you:
+## What we're assessing
 
-- refine a loosely defined requirement,
-- make sensible engineering decisions,
-- and deliver a clean, production-minded REST API using modern development practices (including AI-assisted tooling).
+- How you **clarify requirements** and handle ambiguity
+- Your **engineering decisions** when creating a new project
+- **Execution quality**: clean, readable, production-minded code
 
-We are not looking for trick solutions or completeness. We’re interested in how you **clarify requirements, structure work, and execute** under realistic constraints.
+## Interview format
 
----
+1. **Understand the problem** — ask questions, make assumptions, document them
+2. **Write a short refinement/ticket in markdown** (template can be found [here](TICKET-TEMPLATE.md))
+3. **Build and deliver** a working API + development environment
 
-## How the interview will run
+Manage your time as you see fit. Questions welcome throughout.
 
-You should expect to:
+## Implementation
 
-- spend time early on **understanding and refining the problem**, including how the API should behave,
-- ask clarifying questions and call out ambiguities,
-- make reasonable assumptions and document them,
-- write a short refinement or implementation ticket locally (e.g. in Markdown),
-- and then focus on **executing and delivering a working API**.
+- Any Python framework (FastAPI, Flask, Django, etc.)
+- AI-assisted tools encouraged
+- **No infrastructure/deployment code required**
 
-There is no fixed split between “planning” and “coding”. You should manage your time in whatever way best supports delivering a clear, well-designed solution.
+We're interested in foundational choices: project structure, dependency management, linting, sensible defaults.
 
-You’re welcome to ask questions at any point. Equally, if you prefer to work quietly and focus during the build, that’s completely fine.
+## Expectations
 
----
+- Clear API behaviour, structure, and readability
+- Request/response validation and error handling
+- Logging, observability, security — apply judgement
+- Testing and static analysis where time allows
 
-## Implementation expectations
+**Goal**: Demonstrate how you'd set a new service up for success.
 
-- You’ll be given existing Company Lookup functionality defined in `./src/` and asked to expose it behind an HTTP API.
-- Any Python framework is fine (FastAPI, Flask, Django, etc.).
-- AI-assisted development tools are encouraged and may be used freely.
-- Infrastructure code (Terraform, pipelines, cloud setup) is **not** expected.
+Commit and push all changes at the end. Please then open a PR back into our repo.
 
-This exercise should be treated as the creation of a **new backend service**, rather than a small change to an existing one.
+## Next Steps
 
-As such, we’re interested in the **foundational decisions** you make when starting a service from scratch, for example:
+Fork the repo via the Github UI:
 
-- project and package structure,
-- dependency and package management approach,
-- basic static analysis or linting considerations,
-- and sensible defaults for a new codebase.
+![fork_repo](img/fork_repo.png)
 
-We don’t expect these to be fully implemented or production-hardened within the time available, but we do expect you to apply judgement and be able to explain the choices you make.
+Clone the repo to your local machine:
 
----
+```bash
+git clone https://github.com/<YOUR-USERNAME>/company-lookup.git
+```
 
-## Expectations and constraints
+Create a feature branch:
 
-- Prioritise **clear API behaviour**, structure, and readability.
-- Reasonable request/response validation and error handling are expected.
-- Considerations such as logging, observability, and security are encouraged and should be applied with judgement.
-- Testing (unit or integration) and static analysis are encouraged where time allows.
-- No infrastructure, deployment, or cloud configuration is required.
+```bash
+git checkout -b feature/init-api
+```
 
-The goal is **not** to configure every possible tool or system, but to demonstrate how you would **set a new service up for success**.
+## Once complete
 
-Please commit and push all changes at the end of the interview.
+**Feel free to do this once the interview is over**
+
+Commit your changes and push to the forked repo:
+
+```bash
+git add .
+git commit -m '<SOME_MEANINGFUL_COMMIT_MSG>'
+
+git push --set-upstream origin feature/init-api
+```
+
+Open a pull request into the original repo via the Github UI:
+
+![contribute](img/contribute.png)
+
