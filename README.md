@@ -26,13 +26,13 @@ We're interested in foundational choices: project structure, self-documentation,
 
 We're **not** expecting you to produce a perfect solution, but demonstrating awareness of a specific consideration is expected:
 
-#### Example - Observability:
+#### Example - Linting:
 
 **Expected**
-> Limited logging of request inputs and outputs
+> Require the use of a linting tool like Ruff for local development
 
 **Not Expected**
-> Comprehensive logging, tracing and auditing of the API
+> Fully configured implementation of Ruff with specific selection of rules to run
 
 ## Expectations
 
