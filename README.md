@@ -65,7 +65,7 @@ Create a feature branch:
 git checkout -b feature/init-api
 ```
 
-## Once complete
+## Once Finished
 
 **Feel free to do this once the interview is over**
 
