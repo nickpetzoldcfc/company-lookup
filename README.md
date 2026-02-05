@@ -5,7 +5,7 @@ Take the existing Company Lookup functionality in `src/` and expose it as a prod
 ## What we're assessing
 
 - How you **clarify requirements** and handle ambiguity
-- Your **engineering decisions** when creating a new project
+- Your **engineering decisions** and ability to **leverage AI** when creating a new project
 - **Execution quality**: clean, readable, production-minded code
 
 ## Interview format
