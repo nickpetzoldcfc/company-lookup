@@ -1,6 +1,6 @@
 # Technical Interview Brief: Company Lookup API
 
-Take the existing Company Lookup functionality in `./src/` and expose it as a production-ready REST API.
+Take the existing Company Lookup functionality in `src/` and expose it as a production-ready REST API.
 
 ## What we're assessing
 
