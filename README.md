@@ -45,7 +45,7 @@ We're **not** expecting you to produce a perfect solution, but demonstrating awa
 
 ## Timescales
 
-We want to leave enough time to hear more about your experience and for you to ask questions, so we will have a hard stop at 45 mins.
+We want to leave enough time to hear more about your experience and for you to ask questions, so we will have a **hard stop at 45 mins**.
 
 ## Next Steps
 
