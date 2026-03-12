@@ -48,7 +48,8 @@ The HTTP Endpoint should:
     "domain": "hughes.com", // String | NULL
     "last_default_date": "2020-03-05", // String of ISO Format [YYYY-MM-DD] | NULL
     "match_confidence": "high", // ENUM [no_match | low | medium | high]
-    "name": "Robinson PLC", // String "trade_lines": 10 // Int | NULL
+    "name": "Robinson PLC", // String
+    "trade_lines": 10 // Int | NULL
 }
 ```
 
