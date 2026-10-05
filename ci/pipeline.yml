@@ -1,0 +1,37 @@
+# CI/CD pipeline for company-lookup-api.
+#
+# This is written in simplified, tool-agnostic syntax. It is illustrative:
+# we care about what the pipeline does, not which CI product it runs on.
+
+triggers:
+  pull_request:
+    target_branches: [main]
+  push:
+    branches: [main]
+
+stages:
+  - name: verify
+    steps:
+      - run: pip install uv && uv sync --frozen
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run pytest
+
+  - name: build
+    depends_on: verify
+    when: branch == 'main'
+    steps:
+      - run: docker build -t registry.internal/company-lookup-api:${COMMIT_SHA} .
+      - run: docker push registry.internal/company-lookup-api:${COMMIT_SHA}
+
+  - name: deploy_staging
+    depends_on: build
+    environment: staging
+    steps:
+      - run: ./scripts/deploy.sh staging ${COMMIT_SHA}
+
+  - name: deploy_production
+    depends_on: deploy_staging
+    environment: production # requires manual approval
+    steps:
+      - run: ./scripts/deploy.sh production ${COMMIT_SHA}

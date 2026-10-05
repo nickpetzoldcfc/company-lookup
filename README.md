@@ -1,84 +1,48 @@
-# Technical Interview Brief: Company Lookup API
+# Technical Interview: Company Lookup API
 
-Take the existing Company Lookup functionality in `src/` and expose it as a production-ready REST API.
+`company-lookup-api` is a small internal service that matches imperfect company details against Companies House and credit bureau data. It's in production and other teams depend on it. Today you're joining the team that owns it.
 
-## What we're assessing
+## The session (60 minutes)
 
-- How you **clarify requirements** and handle ambiguity
-- Your **engineering decisions** and ability to **leverage AI** when creating a new project
-- **Execution quality**: clean, readable, production-minded code
+| Part | Time | What you'll do |
+|---|---|---|
+| 1 | ~22 min | Investigate and fix a live issue: [INCIDENT.md](INCIDENT.md) |
+| 2 | ~10 min | Review a colleague's pull request: [review/PR-218.md](review/PR-218.md) |
+| 3 | ~15 min | Design and delivery discussion with us (no laptop needed) |
+| 4 | ~10 min | Your experience, and your questions for us |
 
-## Interview format
+**Please think out loud.** We're much more interested in how you reason than in how much code you produce. It's fine not to finish; tell us what you'd do next.
 
-1. **Understand the problem** — ask questions, make assumptions, document them
-2. **Write a short refinement/ticket in markdown** (template can be found [here](TICKET-TEMPLATE.md))
-3. **Build and deliver** a working API + development environment
+**AI coding tools are welcome** in parts 1 and 2, just as they would be in your day job. Use them however you normally would. We'll ask you to explain the changes you make, so make sure you're comfortable with anything you accept.
 
-Manage your time as you see fit. Questions welcome throughout.
+Ask us questions at any time. We'll play the roles of product owner, support and colleagues where it helps.
 
-## Implementation
+## Getting started
 
-- Any Python framework (FastAPI, Flask, Django, etc.)
-- AI-assisted tools encouraged
-- **No infrastructure/deployment code required**
-
-We're interested in foundational choices: project structure, self-documentation, dependency management, linting, sensible defaults etc.
-
-We're **not** expecting you to produce a perfect solution, but demonstrating awareness of a specific consideration is expected:
-
-#### Example - Linting:
-
-**Expected**
-> Require the use of a linting tool like Ruff for local development
-
-**Not Expected**
-> Fully configured implementation of Ruff with specific selection of rules to run
-
-## Expectations
-
-- Clear API behaviour, structure, and readability
-- Request/response validation and error handling
-- Logging, observability, security — apply judgement
-- Testing and static analysis where time allows
-
-**Goal**: Demonstrate how you'd set a new service up for success.
-
-## Timescales
-
-We want to leave enough time to hear more about your experience and for you to ask questions, so we will have a **hard stop at 45 mins**.
-
-## Next Steps
-
-Fork the repo via the Github UI:
-
-![fork_repo](img/fork_repo.png)
-
-Clone the repo to your local machine:
+Requires Python 3.12+ and [uv](https://docs.astral.sh/uv/).
 
 ```bash
-git clone https://github.com/<YOUR-USERNAME>/company-lookup.git
+git clone <repo-url> company-lookup && cd company-lookup
+git checkout -b fix/INC-4471
+
+uv sync                                     # install dependencies
+uv run pytest                               # run the tests
+uv run ruff check . && uv run ruff format --check .
+uv run uvicorn app.main:app --reload        # run the API at http://localhost:8000/docs
 ```
 
-Create a feature branch:
+## Repository layout
 
-```bash
-git checkout -b feature/init-api
+```text
+app/                   FastAPI service (config, schemas, routes)
+src/company_lookup.py  Matching logic (CompanyLookup.find)
+src/data/              Reference data (Companies House, credit bureau)
+src/tests/             Matching tests and fixtures
+tests/                 API tests
+ci/pipeline.yml        CI/CD pipeline (tool-agnostic syntax)
+Dockerfile             Production image
+CHANGELOG.md           Release history
+PRODUCT-SPEC.md        Original product spec and data contract
+INCIDENT.md            Part 1
+review/PR-218.md       Part 2
 ```
-
-## Once Finished
-
-**Feel free to do this once the interview is over**
-
-Commit your changes and push to the forked repo:
-
-```bash
-git add .
-git commit -m '<SOME_MEANINGFUL_COMMIT_MSG>'
-
-git push --set-upstream origin feature/init-api
-```
-
-Open a pull request into the original repo via the Github UI:
-
-![contribute](img/contribute.png)
-
