@@ -4,6 +4,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, Request
 
+from app import audit
 from app.config import get_settings
 from app.schemas import LookupRequest, LookupResponse
 from src.company_lookup import CompanyLookup
@@ -51,8 +52,14 @@ async def lookup_company(payload: LookupRequest, request: Request) -> LookupResp
 
     try:
         result = request.app.state.company_lookup.find(payload.model_dump())
+        audit.record_lookup(payload.name, payload.postcode, result["match_confidence"])
     except Exception:
         logger.exception("Lookup failed")
         result = NO_MATCH
 
     return LookupResponse(**result)
+
+
+@app.get("/v1/audit/lookups")
+async def audit_lookups(name: str) -> list[dict]:
+    return audit.lookups_for_company(name)
