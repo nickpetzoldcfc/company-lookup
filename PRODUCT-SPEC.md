@@ -1,12 +1,8 @@
 # Product Spec: Company Lookup API
 
-We have an existing **Company Lookup** capability that reconciles imperfect, user-submitted company details against authoritative datasets (Companies House and a credit bureau). This logic already exists within the repository and should be reused.
+The **Company Lookup** capability reconciles imperfect, user-submitted company details against authoritative datasets (Companies House and a credit bureau). It is exposed to other internal services as a REST API (`company-lookup-api`, see `app/`).
 
-We now want to make this capability available to other internal services via a simple REST API.
-
-From a development perspective, this should be treated as a **new service**. While the core lookup logic already exists via `CompanyLookup.find`, the surrounding application (API layer, structure, configuration, and tooling) is being created from scratch.
-
-*N.B. This product spec is 100% geared towards providing requirements for a business outcome i.e. looking up a Company in a central register, and deliberately leaves technical implementation details e.g. authentication, up to the developer to decide what is and isn't necessary given the time constraints.*
+This is the original product spec the service was built from. It describes the business behaviour and data contract the API is expected to honour.
 
 ---
 

@@ -1,0 +1,28 @@
+[project]
+name = "company-lookup-api"
+version = "1.4.0"
+description = "REST API exposing the Company Lookup matching capability to internal services."
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.27",
+    "pytest>=8.3",
+    "ruff>=0.6",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["src/tests", "tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+extend-exclude = ["src", "*.md"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
