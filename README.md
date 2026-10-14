@@ -13,7 +13,7 @@
 
 **Please think out loud.** We're much more interested in how you reason than in how much code you produce. It's fine not to finish; tell us what you'd do next.
 
-**AI coding tools are welcome** in parts 1 and 2, just as they would be in your day job. Use them however you normally would. We'll ask you to explain the changes you make, so make sure you're comfortable with anything you accept.
+**AI coding tools are welcome** in part 1, just as they would be in your day job. Use them however you normally would. We'll ask you to explain the changes you make, so make sure you're comfortable with anything you accept.
 
 Ask us questions at any time. We'll play the roles of product owner, support and colleagues where it helps.
 
